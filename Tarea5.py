@@ -5,7 +5,7 @@ sesiones = [
     [4, 300, 10],
     [5,  55,  9],
     [6, 200,  4],
-    [7,  90, 11],
+    [7,  990, 116],
     [8,  20,  1],
     [9, 185,  9],
     [10,  70,  3],
@@ -35,7 +35,8 @@ def generar_informe(sesiones):
 
     print("RESUMEN")
     for nivel, cantidad in conteo.items():
-        print(f"  {nivel:<10}: {cantidad} sesión")
+        print("-" * 50)
+        print(f"{nivel:<10}: {cantidad} sesión")
 
 
 if __name__ == "__main__":
